@@ -1,0 +1,52 @@
+.banner{
+    height: 350px;
+    width: 60%;
+    margin:  20px 12px 0px 12px;
+    padding: 0px 66px 0px 34px;
+}
+
+.text{
+    margin: 0px 12px;
+    padding: 0px 34px;
+}
+  
+.planta {
+    background-color: #9bcc50;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.veneno{
+    background-color: #b97fc9;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.fuego{
+    background-color: #fd7d24;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.volador{
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background-color: #3dc7ef;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.agua{
+    background-color:  #4592c4;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.bicho{
+    background-color:  #729f3f;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.descPokemon{
+    margin: 0px 3.14px 0px 0px;
+}

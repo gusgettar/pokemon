@@ -8,14 +8,6 @@ body{
     flex-grow: 1;
   }
 
-.banner{
-    /* height: 350px;
-    width: 60%;
-    margin:  20px 12px 0px 12px;
-    padding: 0px 66px 0px 34px; */
-    height: 200px;
-  object-fit: cover;
-}
 
 .text{
     margin: 0px 12px;
@@ -63,9 +55,21 @@ body{
     margin: 0px 3.14px 0px 0px;
 }
 
+.banner {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+@media all and (min-width: 768px) and (max-width: 991px){
+  .banner {
+        height: 350px;
+        object-fit: cover;
+        }
+  }
+  
 @media all and (min-width: 992px) {
     .banner {
-      height: 450px;
-      object-position: 50% 30%;
+    height: 450px;
+    object-position: 50% 52%;
     }
   }

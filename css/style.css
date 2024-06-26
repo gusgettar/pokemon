@@ -1,8 +1,20 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main{
+    flex-grow: 1;
+  }
+
 .banner{
-    height: 350px;
+    /* height: 350px;
     width: 60%;
     margin:  20px 12px 0px 12px;
-    padding: 0px 66px 0px 34px;
+    padding: 0px 66px 0px 34px; */
+    height: 200px;
+  object-fit: cover;
 }
 
 .text{
@@ -50,3 +62,10 @@
 .descPokemon{
     margin: 0px 3.14px 0px 0px;
 }
+
+@media all and (min-width: 992px) {
+    .banner {
+      height: 450px;
+      object-position: 50% 30%;
+    }
+  }

@@ -55,6 +55,14 @@ body{
     margin: 0px 3.14px 0px 0px;
 }
 
+
+.img-nosotros{
+    width: 300px; /* Ancho de la imagen */
+        height: 300px; /* Altura de la imagen */
+        border-radius: 50%; /* Hace que la imagen sea redonda */
+        object-fit: cover; /* Para que la imagen se ajuste al contenedor sin deformarse */
+  }
+
 .banner {
     height: 200px;
     object-fit: cover;
@@ -72,4 +80,3 @@ body{
     height: 450px;
     object-position: 50% 52%;
     }
-  }
